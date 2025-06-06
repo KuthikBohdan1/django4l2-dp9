@@ -14,6 +14,6 @@ class LibraryBook(models.Model):
     
 
     class Meta:
-        # verbose_name = "author"
-        # verbose_name_plural = "libraryBooks"
+        verbose_name = "author"
+        verbose_name_plural = "libraryBooks"
         ordering = ["author"] #сортування
